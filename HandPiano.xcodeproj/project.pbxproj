@@ -95,6 +95,7 @@
 		E628D53A1C0A7B8200EBEAF6 /* 86.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E628D4E21C0A7B8100EBEAF6 /* 86.mp3 */; };
 		E628D53B1C0A7B8200EBEAF6 /* 87.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E628D4E31C0A7B8100EBEAF6 /* 87.mp3 */; };
 		E628D53C1C0A7B8200EBEAF6 /* 88.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E628D4E41C0A7B8100EBEAF6 /* 88.mp3 */; };
+		E688E5381C0AB97A003653A0 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E688E5371C0AB97A003653A0 /* ConfigViewController.swift */; };
 		E6CDB7B21C0A516C00ED06D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CDB7B11C0A516C00ED06D3 /* AppDelegate.swift */; };
 		E6CDB7B71C0A516C00ED06D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB7B51C0A516C00ED06D3 /* Main.storyboard */; };
 		E6CDB7B91C0A516C00ED06D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CDB7B81C0A516C00ED06D3 /* Assets.xcassets */; };
@@ -208,6 +209,7 @@
 		E628D4E21C0A7B8100EBEAF6 /* 86.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 86.mp3; sourceTree = "<group>"; };
 		E628D4E31C0A7B8100EBEAF6 /* 87.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 87.mp3; sourceTree = "<group>"; };
 		E628D4E41C0A7B8100EBEAF6 /* 88.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 88.mp3; sourceTree = "<group>"; };
+		E688E5371C0AB97A003653A0 /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		E6CDB7AE1C0A516C00ED06D3 /* HandPiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandPiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CDB7B11C0A516C00ED06D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6CDB7B61C0A516C00ED06D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 				E628D4E41C0A7B8100EBEAF6 /* 88.mp3 */,
 				E6CDB7B51C0A516C00ED06D3 /* Main.storyboard */,
 				E6CDB7E21C0A540100ED06D3 /* HandPianoViewController.swift */,
+				E688E5371C0AB97A003653A0 /* ConfigViewController.swift */,
 				E6CDB7DF1C0A51C100ED06D3 /* SupportiveFiles */,
 			);
 			path = HandPiano;
@@ -592,6 +595,7 @@
 			files = (
 				E6CDB7B21C0A516C00ED06D3 /* AppDelegate.swift in Sources */,
 				E6CDB7E31C0A540100ED06D3 /* HandPianoViewController.swift in Sources */,
+				E688E5381C0AB97A003653A0 /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
